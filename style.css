@@ -1,0 +1,181 @@
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #19467d;
+  color: #fff;
+  padding: 10px;
+  
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #19467d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+ 
+}
+
+.btn-class {
+  display: flex;
+  /* justify-content: right;
+  align-items: right; */
+  float: right;
+}
+
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #19467d;
+}
+
+.small {
+  font-size: 80px;
+  text-align: center;
+}
+
+.split-half {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  height: 100px;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.right .copy {
+  color: black;
+  text-align: center;
+}
+
+.right .copy p {
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.right form {
+  width: 326px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  padding: 1em;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-family: Poppins;
+  weight: 500;
+}
+
+.input-container.name {
+  position: relative;
+}
+
+.input-container.name .material-symbols-outlined {
+  position: absolute;
+  top: 43px;
+  right: -4px;
+}
+.input-container.phone {
+  position: relative;
+}
+
+.input-container.phone .material-symbols-outlined {
+  position: absolute;
+  top: 43px;
+  right: -4px;
+}
+.input-container.email {
+  position: relative;
+}
+
+.input-container.email .material-symbols-outlined {
+  position: absolute;
+  top: 43px;
+  right: -4px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-btn {
+  display: block;
+  width: 50%;
+  background: #19467d;
+  color: white;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .split-half {
+    flex-direction: row;
+    height: 100vh;
+  }
+  .left,
+  .right {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
+}
